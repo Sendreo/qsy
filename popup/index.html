@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="login">
+    <button id="abrirmodal">Login</button>
+</div>
+
+
+     <dialog id="modal">
+        <form>
+            <fieldset>
+                
+                <legend>Login</legend>
+                <input type="text" placeholder="usuario" id="usuario">
+                <br>
+                <br>
+                <input type="password" placeholder="contraseña" id="contraseña">
+           
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <label for="">Mostrar Contraseña</label>
+                </div>
+               <div>
+                
+                <button>Iniciar Sesion</button>
+               </div>
+            </fieldset>
+        </form>
+
+
+
+
+        <button id="cerrar">Cerrar</button>
+     </dialog>
+     <script src="modal.js"></script>
+</body>
+
+</html>

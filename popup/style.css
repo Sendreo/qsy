@@ -1,0 +1,64 @@
+fieldset{
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+#usuario{
+    top: 90px;
+    position: absolute ;
+    width: 200px;
+
+    
+}
+
+#contraseña{
+    width: 200px;
+}
+
+dialog{
+    border:0px;
+   
+   
+}
+
+div button{
+    position: absolute;
+    justify-content: center;
+    bottom: 100px;
+    left: 40%;
+
+}
+
+.checkbox{
+    position: absolute;
+   bottom: 140px;
+   justify-content: center;
+   align-items: center;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+   bottom: 160px;
+   left: 86px;
+  
+}
+
+.login button {
+    font-size: 1.5rem; /* Tamaño de fuente ajustable según tus preferencias */
+    padding: 10px 20px; /* Ajusta el espacio interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-image: url(link.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
